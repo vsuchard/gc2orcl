@@ -14,7 +14,7 @@ I use free tool Oracle SQL Developer.
 ## Bash interpreter instaled
 The bash is standard on Unix/Linux platforms, also it is possible use cygwin bash on Windows
 
-## Steps to deploy:
+# Steps to deploy:
 
 1. create a new schema (owner of db objects) in the database or use someone which is already prepared
 
@@ -28,7 +28,7 @@ The bash is standard on Unix/Linux platforms, also it is possible use cygwin bas
         SQL> connect trader/gc2orcl
         SQL> @010_INSTALL.sql
 
-## Steps to use:
+# Steps to use:
 
 1. configure CONNECT variable in the script closed_positions_report.sh and Account_Summary.sh
 2. export "Closed possitions" from TraderPro and save into directory with scripts
